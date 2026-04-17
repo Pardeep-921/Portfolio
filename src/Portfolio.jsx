@@ -37,7 +37,7 @@ export default function Portfolio() {
     ],
     Backend: ["Node.js", "Express.js", "Python"],
     Databases: ["MySQL", "MongoDB", "SQL"],
-    Tools: ["Git", "GitHub", "Firebase", "VS Code", "Figma", "Canva"],
+    Tools: ["Git", "GitHub", "Firebase", "VS Code IDE", "Figma", "Canva", "Antigravity Tool"],
     Other: ["C", "C++", "Java", "Cloud Computing", "AI Basics", "NLP"],
   };
 
@@ -49,8 +49,8 @@ export default function Portfolio() {
         "AI-based web application helping students improve employability with resume analysis and skill recommendations. Includes dashboard for placement officers.",
       tech: ["React", "AI", "Firebase"],
       role: "Full Stack Developer",
-      github: "https://github.com/Pardeep-Kumar-Singh/AI_SIMULATE",
-      live: "https://github.com/Pardeep-Kumar-Singh/AI_SIMULATE",
+      github: "https://github.com/Pardeep-921/AI_SIMULATE",
+      live: "https://github.com/Pardeep-921/AI_SIMULATE",
     },
     {
       title: "AgriNexus",
@@ -59,37 +59,57 @@ export default function Portfolio() {
         "Image-based plant disease detection system providing preventive advice for farmers. Award-winning hackathon project.",
       tech: ["Python", "Machine Learning", "React"],
       role: "Lead Developer",
-      github: "#",
-      live: "#",
+      github: "https://pardeep-921.github.io/Agrinexus-X/",
+      live: "https://agrinexus-x.vercel.app/",
     },
     {
       title: "Tandoori Flame",
       subtitle: "Restaurant Website",
       description:
         "Responsive restaurant website that improved online presence and user engagement with modern UI/UX.",
-      tech: ["React", "Tailwind CSS", "Firebase"],
+      tech: ["HTML", "CSS", "JAVASCRIPT"],
       role: "Frontend Developer",
-      github: "https://github.com/Pardeep-Kumar-Singh/restaurant",
-      live: "https://pardeep-kumar-singh.github.io/restaurant/",
+      github: "https://pardeep-921.github.io/Tandoori-Flame/",
+      live: "https://pardeep-921.github.io/Tandoori-Flame/",
+    },
+    {
+      title: "IMDB Clone",
+      subtitle: "MovieRecord – IMDB Clone",
+      description:
+        "MovieRecord is an IMDB-inspired movie web application.",
+      tech: ["React", "Tailwind CSS", "TMDB API", "Axios", "Local Storage", "React Router DOM"  ],
+      role: "Full Stack Developer",
+      github: "https://pardeep-921.github.io/IMDb_Clone/",
+      live: "https://im-db-clone-inky.vercel.app/",
+    },
+    {
+      title: "Finance-Dashboard",
+      subtitle: "Sovereign Ledger | Premium Finance Dashboard",
+      description:
+        "A clean, interactive, and high-end finance dashboard. Designed with a Sovereign Ledger aesthetic, featuring a full Dark/Light Mode system and smooth, production-grade responsiveness.",
+      tech: ["React", "Tailwind CSS", "RBAC", "Local Storage"],
+      role: "Frontend Developer",
+      github: "https://pardeep-921.github.io/Finance-Dashboard/",
+      live: "https://finance-dashboard-git-main-pardeep-kumar-singhs-projects.vercel.app/",
     },
     {
       title: "Student Registration System",
       subtitle: "Python ERP",
       description:
         "Multi-user registration system with fast and efficient data handling for educational institutions.",
-      tech: ["Python", "MySQL", "Flask"],
-      role: "Backend Developer",
-      github: "https://github.com/Pardeep-Kumar-Singh/SRF",
-      live: "https://github.com/Pardeep-Kumar-Singh/SRF",
+      tech: ["Python","Tkinter", "MySQL", "Flask"],
+      role: "Full Stack Developer",
+      github: "https://pardeep-921.github.io/Student-Registration-Form/",
+      live: "https://pardeep-921.github.io/Student-Registration-Form/",
     },
   ];
 
   const experience = [
     {
       title: "Web Developer",
-      company: "WebUnitech",
+      company: "WebUnitech Solutions LLP",
       location: "Sonipat",
-      period: "2023 - 2024",
+      period: "2026 - Present",
       points: [
         "Built dynamic user interfaces with React.js",
         "Integrated RESTful APIs for seamless data flow",
@@ -243,7 +263,7 @@ export default function Portfolio() {
       >
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 animate-fade-in">
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <h1 className="mx-auto max-w-[12ch] text-4xl leading-tight break-words sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               Pardeep Kumar Singh
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-4">
@@ -594,7 +614,7 @@ export default function Portfolio() {
                   Sonipat, Haryana, India
                 </div>
                 <a
-                  href="https://github.com/Pardeep-Kumar-Singh"
+                  href="https://github.com/Pardeep-921"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-gray-300 hover:text-cyan-400 transition-colors"
@@ -603,7 +623,7 @@ export default function Portfolio() {
                   GitHub Profile
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/pardeep-kumar-singh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  href="https://www.linkedin.com/in/pardeep921?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-gray-300 hover:text-cyan-400 transition-colors"

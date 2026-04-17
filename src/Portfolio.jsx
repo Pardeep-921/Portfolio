@@ -57,8 +57,8 @@ export default function Portfolio() {
       subtitle: "Crop Disease Detection",
       description:
         "Image-based plant disease detection system providing preventive advice for farmers. Award-winning hackathon project.",
-      tech: ["Python", "Machine Learning", "React"],
-      role: "Lead Developer",
+      tech: ["React", "Tailwind CSS"],
+      role: "Web Developer",
       github: "https://pardeep-921.github.io/Agrinexus-X/",
       live: "https://agrinexus-x.vercel.app/",
     },
